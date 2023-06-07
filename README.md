@@ -1,11 +1,11 @@
 # statesECities-api
-Pondo em prática os meus projetos em Java[^1]
+Pondo em prática os meus projetos em Java[^1].
+
 Este projeto  foi feito na IDE  Intellij.
 
-#TECNOLOGIA  utilizada:
-
+#  Tecnologia  utilizadss:
 ##  Back-end
--  Java
+-  Java  
 -  Jpa/Hibernate
 -  Maven
 -  Spring Boot
