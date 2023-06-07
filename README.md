@@ -1,5 +1,6 @@
 # statesECities-api
 Pondo em prática os meus projetos em Java[^1]
+Este projeto  foi feito na IDE  Intellij.
 
 #TECNOLOGIA  utilizada:
 
@@ -44,7 +45,9 @@ psql -h localhost -U postgres_user_city cidades -f /tmp/pais.sql
 psql -h localhost -U postgres_user_city cidades -f /tmp/estado.sql
 psql -h localhost -U postgres_user_city cidades -f /tmp/cidade.sql
 psql -h localhost -U postgres_user_city cidades
+
 CRIAR CUBO DE EXTENSÃO; 
+
 CRIAR EXTENSÃO TERRADISTÂNCIA;
 ```
 
@@ -61,7 +64,5 @@ $  git add .
 ```
 $  git  commit -m  "Commit  all  files  for github"
 ```
-## Execut  o seu  Projeto
--[ ] Done! :🚀👩‍💻 (:tada:)
 
 [^1]: Este projeto foi feito com a orientação do Expert e professor  And´re  L. Gomes(DIO.me).
