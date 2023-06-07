@@ -3,7 +3,7 @@ Pondo em prática os meus projetos em Java[^1].
 
 Este projeto  foi feito na IDE  Intellij.
 
-#  Tecnologia  utilizadss:
+#  Tecnologia  utilizadas:
 ##  Back-end
 -  Java  
 -  Jpa/Hibernate
@@ -12,7 +12,7 @@ Este projeto  foi feito na IDE  Intellij.
 -  Postgresql
 -  H2
 
--  ##  Dependência  acrescentadas:
+-  ##  Dependências acrescentadas:
 -  flywaydb/flyway-maven-plugin
 -  vladmihalcea/hibernate-types-52
 
@@ -30,7 +30,7 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 
-###  Observação:   para execu e  visualizar  os  Get,  Post, Put  and  Delet.
+###  Observação: para executar e visualizar o Get, Post, Put and Delet.
 Postman
 Heroku
 
@@ -47,14 +47,13 @@ psql -h localhost -U postgres_user_city cidades -f /tmp/cidade.sql
 psql -h localhost -U postgres_user_city cidades
 
 CRIAR CUBO DE EXTENSÃO; 
-
 CRIAR EXTENSÃO TERRADISTÂNCIA;
 ```
 
 ###   Port
 
 ```
-$  jdbc:postgresql://localhost:5432/Cities1Apidb
+$  jdbc:postgresql://localhost:5432/statesECitiesapidb
 
 ```
 ###  Agora  é só jogar  o  Projeto  no  github
@@ -65,4 +64,4 @@ $  git add .
 $  git  commit -m  "Commit  all  files  for github"
 ```
 
-[^1]: Este projeto foi feito com a orientação do Expert e professor  And´re  L. Gomes(DIO.me).
+[^1]: Este projeto foi feito com a orientação do Expert e professor André L. Gomes(DIO.me).
