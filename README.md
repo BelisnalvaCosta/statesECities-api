@@ -1,5 +1,5 @@
 # statesECities-api
-
+Pondo em prática os meus projetos em Java[^1]
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
@@ -66,3 +66,11 @@ To run your existing tests in a native image, run the following goal:
 ```
 $ ./mvnw test -PnativeTest
 ```
+## Executar o projeto
+yarn start
+
+-[ ] Done! :🚀👩‍💻 (:tada:)
+
+>"Tudo é possível ao que crê! Tenho esperança que breve chegará a minha vez de brilhar!" 
+
+[^1]: Este projeto foi feito com a orientação do Expert e professor Nélio Alves(DevSuperior). 
