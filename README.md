@@ -40,23 +40,28 @@ The following guides illustrate how to use some features concretely:
 
 '''Shell script
 cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
+
 docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
+
 psql -h localhost -U postgres_user_city cidades -f /tmp/pais.sql
+
 psql -h localhost -U postgres_user_city cidades -f /tmp/estado.sql
+
 psql -h localhost -U postgres_user_city cidades -f /tmp/cidade.sql
+
 psql -h localhost -U postgres_user_city cidades
 
 CRIAR CUBO DE EXTENSÃO; 
 CRIAR EXTENSÃO TERRADISTÂNCIA;
 ```
 
-###   Port
+//Port
 
 ```
 $  jdbc:postgresql://localhost:5432/statesECitiesapidb
 
 ```
-###  Agora  é só jogar  o  Projeto  no  github
+//Agora  é só jogar  o  Projeto  no  github
 $  git add .   
 ```
  
