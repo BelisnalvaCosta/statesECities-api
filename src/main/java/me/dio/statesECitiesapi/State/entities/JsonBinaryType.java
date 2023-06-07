@@ -1,22 +1,25 @@
 package me.dio.statesECitiesapi.State.entities;
 
-import org.hibernate.mapping.TypeDef;
+import org.hibernate.boot.model.TypeDefinition;
 
 import java.lang.annotation.Annotation;
+import java.util.Map;
 
-public class JsonBinaryType extends TypeDef {
+public class JsonBinaryType extends TypeDefinition {
+
+    public JsonBinaryType(String name, Class<?> typeImplementorClass, String[] registrationKeys, Map<String, String> parameters) {
+        super(name, typeImplementorClass, registrationKeys, parameters);
+    }
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
 
-    @Override
     public Class<JsonBinaryType> typeClass() {
         return null;
     }
 
-    @Override
     public String name() {
         return null;
     }
@@ -35,8 +38,6 @@ public class JsonBinaryType extends TypeDef {
     public String toString() {
         return null;
     }
-
-    @Override
     public Class<? extends Annotation> annotationType() {
         return null;
     }
