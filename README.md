@@ -53,15 +53,15 @@ psql -h localhost -U postgres_user_city cidades
 
 CRIAR CUBO DE EXTENSÃO; 
 CRIAR EXTENSÃO TERRADISTÂNCIA;
-```
 
-//Port
+//Exemplo de URL
 
 ```
 $  jdbc:postgresql://localhost:5432/statesECitiesapidb
-
 ```
+
 //Agora  é só jogar  o  Projeto  no  github
+```
 $  git add .   
 ```
  
